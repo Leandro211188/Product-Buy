@@ -1,0 +1,56 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produc-Buy</title>
+</head>
+<body>
+<header ; >
+<h2 style="text-align:center; background-color:orange">New Awesome Product</h2>
+</header>
+<main>
+<img src="https://blob.sololearn.com/courses/np.png">
+<p><b>New design!!!</b> </p>
+<ul>
+    <li>Product 1</li>
+    <li>Product 2</li>
+    <li>Product 3</li>
+</ul>
+<h2>Haga su pedido!</h2>
+<form>
+    <label>Size:</label>
+<select>
+    <option>Small</option>
+    <option>Medium</option>
+    <option>Large</option>    
+</select>
+    <label>Color:</label>
+<select>
+    <option>Red</option>
+    <option>Green</option>
+    <option>Blue</option>
+</select>
+    
+<br><br>
+
+   <label>Name:</label>
+   <input type="text"><br><br>
+   <label>Email:</label>
+   <input type="email"><br><br>
+  <input style="background-color:blue;color:white;border:none;border-radius:5px;  " type="submit" onclick="miFunc()">
+<script>
+  function miFunc()
+{
+  alert('Compra confirmada!');
+}
+</script>
+</form>
+</main>
+<footer style="background-color:orange">
+    <p style="text-align:center">
+        Copywrite cccc
+    </p>
+</footer>
+</body>
+</html>
